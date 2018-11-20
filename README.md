@@ -61,13 +61,13 @@ xlsx2json(
             'col_3': 'C'
         }
     }
-}).then(jsonArray => { ... });
+).then(jsonArray => { ... });
 ```
 The jsonArray is as follows : )
 ```JSON
 [
     [
-        {"col_1": "value 1-A", "col_1": "value 1-B", "col_3": "value 1-C"},
+        {"col_1": "value 1-A", "col_2": "value 1-B", "col_3": "value 1-C"},
         {"col_1": "value 2-A", "col_2": "value 2-B", "col_3": "value 2-C"}
     ]
 ]
